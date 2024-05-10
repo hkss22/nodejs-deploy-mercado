@@ -6,6 +6,7 @@ import controllerProdutos from "./controllers/controller.produtos.js";
 import controllerPedidos from "./controllers/controller.pedidos.js";
 import BasicAuth from "./config/basic-auth.js";
 
+const express = require('express')
 const app = express();
 
 // Middleware JSON
