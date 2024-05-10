@@ -2,12 +2,12 @@ import mysql2 from 'mysql2';
 
 // Conexao com o banco
 const db = mysql2.createPool({
-    host: "viaduct.proxy.rlwy.net",
+    host: "monorail.proxy.rlwy.net",
     user: "root",
-    password: "pdABqKSTcEmYNKjxSxhYsSsljScBKNhj",
+    password: "oKNyyamtumlmRHleYOrUyOAebQyfAySz",
     database: "railway",
     connectTimeout: 30000,
-    port: '28801'
+    port: '27241'
 });
 
 
