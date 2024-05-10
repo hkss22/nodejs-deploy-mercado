@@ -1,7 +1,7 @@
-import mysql2 from 'mysql2';
+import mysql from 'mysql';
 
 // Conexao com o banco
-const db = mysql2.createPool({
+const db = mysql.createPool({
     host: "viaduct.proxy.rlwy.net",
     user: "root",
     password: "pdABqKSTcEmYNKjxSxhYsSsljScBKNhj",
