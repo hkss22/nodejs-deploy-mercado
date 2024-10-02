@@ -4,7 +4,7 @@ import mysql2 from 'mysql2';
 const db = mysql2.createPool({
     host: "junction.proxy.rlwy.net",
     user: "root",
-    password: "oKNyyamtumlmRHleYOrUyOAebQyfAySz",
+    password: "teste123",
     database: "railway",
     connectTimeout: 30000,
     port: '26048'
